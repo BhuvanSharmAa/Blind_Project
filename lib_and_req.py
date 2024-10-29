@@ -8,6 +8,9 @@ from ultralytics import YOLO
 from multiprocessing import Process, Queue, Value
 import time
 import os
+import ans.py
+import conn_to_mob.py
+import 
 
 if not os.path.exists("coco.names"):
     import urllib.request
