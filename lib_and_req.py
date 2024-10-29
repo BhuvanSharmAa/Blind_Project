@@ -12,7 +12,4 @@ import time
 model = YOLO('yolov8n.pt')
 qa_pipeline = pipeline("question-answering", model="distilbert-base-cased-distilled-squad")
 engine = pyttsx3.init()
-detected_objects = []
-frame_queue = Queue(maxsize=5)
-command_processing = Value('b', False)  
-collision_alerted = Value('b', False)    
+   
