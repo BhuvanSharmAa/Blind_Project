@@ -10,7 +10,8 @@ import time
 import os
 import ans.py
 import conn_to_mob.py
-import 
+import dist_est.py
+import nlp.py
 
 if not os.path.exists("coco.names"):
     import urllib.request
