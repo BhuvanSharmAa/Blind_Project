@@ -1,4 +1,4 @@
-nlp = spacy.load("en_core_web_sm")  # Named Entity Recognition
+nlp = spacy.load("en_core_web_sm")
 qa_pipeline = pipeline("question-answering", model="distilbert-base-cased-distilled-squad")
 
 
