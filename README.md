@@ -1,4 +1,4 @@
-Blind_Project 👁️‍🗨️
+Blind-Project 👁️‍🗨️
 📌 Project
 
 Blind_Project is an AI-powered assistant designed to help visually impaired individuals.
